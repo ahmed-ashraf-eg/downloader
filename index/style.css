@@ -1,0 +1,99 @@
+#ui, #signin-button, #signout-button {
+  display: none;
+}
+
+blockquote {
+  background-color: rgba(128, 128, 128, .125);
+  border-left: 4px solid rgba(128, 128, 128, .25);
+  font-style: italic;
+  margin: 4% 0;
+  padding: 4% 0 4% 2%;
+  width: 98%;
+}
+
+button {
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, .25);
+  cursor: pointer;
+  width: 33%;
+}
+
+input {
+  width: 100%;
+}
+
+main {
+  margin: 0 auto;
+  max-width: 640px;
+  width: 75vw;
+}
+
+section {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1rem;
+}
+
+select {
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, .25);
+  width: 100%;
+}
+
+.progress-background {
+  background-color: rgba(128, 128, 128, .125);
+  width: 100%;
+}
+
+.progress-fill {
+  border-top: 1px dotted rgba(128, 128, 128, .25);
+  display: block;
+  height: 1px;
+  transition: background-color 250ms ease-in-out, width 50ms ease-in-out;
+}
+
+.downloading {
+  background-color: rgba(0, 160, 0, .75);
+}
+
+.finished {
+  background-color: rgba(0, 96, 0, .25);
+}
+
+.warning {
+  background-color: rgba(240, 224, 0, .5);
+}
+
+.error {
+  background-color: rgba(240, 0, 0, .5);
+}
+
+.github-corner:hover .octo-arm {
+  animation: octocat-wave 560ms ease-in-out
+}
+
+@keyframes octocat-wave {
+  0%, 100% {
+    transform: rotate(0)
+  }
+  20%, 60% {
+    transform: rotate(-25deg)
+  }
+  40%, 80% {
+    transform: rotate(10deg)
+  }
+}
+
+@media (max-width: 500px) {
+  .github-corner:hover .octo-arm {
+    animation: none
+  }
+  .github-corner .octo-arm {
+    animation: octocat-wave 560ms ease-in-out
+  }
+  .github-corner-text {
+    display: none;
+  }
+  .github-corner svg {
+    height: 50px;
+    width: 50px;
+  }
+}
